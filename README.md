@@ -9,7 +9,12 @@ git clone https://github.com/mzbac/job-description-generation.git
 - ssh to remote ec2
 - source activate pytorch_p36
 
-
+# Serving model 
+```
+cd host
+export FLASK_APP=predictions.py
+flask run
+```
 # Requirements 
 - python 3
 - pytorch
